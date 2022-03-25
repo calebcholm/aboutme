@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans&display=swap');
+
+header {
+	background: grey;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-variant: small-caps;
+	font-size: 30px;
+}
+
+body {
+	font-family: 'Work Sans', sans-serif;
+	padding: 5px;
+	margin: 5px;
+	background-color: tan;
+}
+
+hr {
+	height: 5px solid;
+}
+
+footer {
+	text-align: center;
+}
+
+a:link {color: blue}
+a:visited {color: purple}
+a:hover {color: white}
+a:active {color: green}
+
+
+/*
+background
+color
+font-family
+font-size
+height
+margin
+padding
+text-align
+*/
