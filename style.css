@@ -23,6 +23,13 @@ footer {
 	text-align: center;
 }
 
+img {
+	display: block;
+	width: 35%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 a:link {color: blue}
 a:visited {color: purple}
 a:hover {color: white}
