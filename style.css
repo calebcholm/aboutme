@@ -1,5 +1,11 @@
+/*
+imported fonts from google.com
+*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans&display=swap');
 
+/*
+header rule for background color and font adjustments
+*/
 header {
 	background: grey;
 	text-align: center;
@@ -7,30 +13,40 @@ header {
 	font-variant: small-caps;
 	font-size: 30px;
 }
-
+/*
+body rule for font and margin/padding
+*/
 body {
 	font-family: 'Work Sans', sans-serif;
 	padding: 5px;
 	margin: 5px;
-	background-color: tan;
+	background-color: #EDEDED; 
 }
-
+/*
+wanted hr line to be slightly thicker
+*/
 hr {
 	height: 5px solid;
 }
-
+/*
+centering footer
+*/
 footer {
 	text-align: center;
 }
-
+/*
+display: block to display the image as a block element and centering with auto left and right margins
+*/
 img {
 	display: block;
 	width: 35%;
 	margin-left: auto;
 	margin-right: auto;
 }
-
+/*
+changing link, visited, hover and active colors
+*/
 a:link {color: blue}
 a:visited {color: purple}
-a:hover {color: white}
-a:active {color: green}
+a:hover {color: black}
+a:active {color: #005700}
